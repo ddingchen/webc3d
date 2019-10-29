@@ -1,4 +1,4 @@
-export default class WebC3D {
+export class Scene {
     constructor() {
         console.error('web c3d')
     }
