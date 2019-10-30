@@ -77,11 +77,11 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,29 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Scene", function() { return Scene; });
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var Scene = function Scene() {
-  _classCallCheck(this, Scene);
-
-  console.error('web c3d');
-}; // exports.printMsg = function() {
-//   console.log("This is a message from the demo package");
-// }
-
-/***/ }),
-
-/***/ 0:
-/*!**************************!*\
-  !*** multi ./src/app.js ***!
-  \**************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! /Users/dc/Documents/Sites/webc3d/src/app.js */"./src/app.js");
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Scene\", function() { return Scene; });\nclass Scene {\n    constructor() {\n        console.error('web c3d')\n    }\n}\n\n// exports.printMsg = function() {\n//   console.log(\"This is a message from the demo package\");\n// }\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
