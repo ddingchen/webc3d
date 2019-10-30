@@ -90,11 +90,11 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! exports provided: Scene */
+/*! exports provided: Scene, printMsg */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Scene\", function() { return Scene; });\nclass Scene {\n    constructor() {\n        console.error('web c3d')\n    }\n}\n\nexports.printMsg = function() {\n  console.log(\"This is a message from the demo package\");\n}\n\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Scene\", function() { return Scene; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"printMsg\", function() { return printMsg; });\nclass Scene {\n    constructor() {\n        console.error('web c3d')\n    }\n}\n\nfunction printMsg() {\n  console.log(\"This is a message from the demo package\");\n}\n\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
